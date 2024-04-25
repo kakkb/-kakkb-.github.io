@@ -1,9 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: #f4f4f4;
+    color: #333;
+}
+h1 {
+    color: #006699;
+    background-image: url('logo.png'); /* 蝴蝶Logo */
+    background-repeat: no-repeat;
+    background-size: 60px 60px; /* Logo大小，根据实际图片调整 */
+    background-position: 10px center; /* Logo位置 */
+    padding-left: 80px; /* 根据Logo大小调整 */
+}
 
-body { font-family: Arial, sans-serif; padding: 20px; background: #f4f4f4; color: #333; }
-h1 { color: #006699; }
-.family { margin: 10px; padding: 10px; border: 1px solid #ccc; cursor: pointer; background: #fff; }
-.species { margin-left: 20px; display: none; padding: 5px; border-left: 2px solid #006699; }
+/* 家族和物种样式 */
+.family {
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 8px; /* 添加圆角 */
+    cursor: pointer;
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* 添加阴影 */
+}
+.species {
+    margin-left: 20px;
+    display: none;
+    padding: 5px;
+    border-left: 4px solid #006699; /* 更显著的边框 */
+}
+
+/* 图片画廊样式 */
 #image-gallery img {
-    width: 92%; /* 设置图片宽度为容器的100% */
+    width: 95%; /* 设置图片宽度为容器的100% */
     height: auto; /* 设置图片高度自动，保持宽高比 */
+}
+/* 特别图片样式 */
+#special-image {
+    display: block;
+    margin: 20px auto; /* 居中显示 */
+    max-width: 50%; /* 控制大小 */
+    border: 3px solid #006699; /* 添加边框 */
+    border-radius: 8px; /* 添加圆角 */
 }
