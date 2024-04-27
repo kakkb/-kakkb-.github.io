@@ -15,7 +15,7 @@ h1 {
 
 /* 家族和物种样式 */
 .family {
-    margin: 10px;
+    margin: 100px;
     padding: 10px;
     border: 2px solid #ccc;
     border-radius: 8px; /* 添加圆角 */
